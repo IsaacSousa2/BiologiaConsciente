@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'font-montserrat';
+    src: url(.src/fonts/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'font-insaneburguer';
+    src: url(/src/fonts/insaniburger/Insanibc.ttf);
+}
