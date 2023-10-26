@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'font-montserrat';
-    src: url(.src/fonts/montserrat/Montserrat-Bold.ttf);
+    font-family: 'Poppins-Medium';
+    src: url(/src/fonts/poppins/Poppins-Medium.tff);
 }
 
 @font-face {
-    font-family: 'font-insaneburguer';
-    src: url(/src/fonts/insaniburger/Insanibc.ttf);
+    font-family: 'Poppins-Bold';
+    src: url(/src/fonts/poppins/Poppins-Bold.ttf);
 }
