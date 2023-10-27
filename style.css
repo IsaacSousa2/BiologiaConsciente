@@ -67,12 +67,16 @@ header nav{
     
 }
 header a{
-    font-family: 'font-montserrat';
     color: #000000;
     padding: 0rem 1rem 0rem 1rem;
 }
+
+header a:hover{
+    color: rgb(46, 144, 255);
+    transition: 0.9s;
+    padding: 0rem 1rem 0rem 1rem;
+}
 header p{
-    font-family: 'font-montserrat';
     font-size: 20px;
     margin: 1rem 0rem 0rem 10rem;
 }
@@ -99,7 +103,7 @@ header p{
     padding-bottom: 5rem;
     align-items: center;
     justify-content: center;
-    margin-left: 3%;
+
 
 }
 
@@ -109,7 +113,6 @@ header p{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 10rem;
     margin-top: 5rem;
     text-align: center;
 
@@ -117,7 +120,7 @@ header p{
 
 .imagemMétodo{
 
-    padding-left: 10rem;
+    padding-left: 1.5rem;
     position: relative;
 
 }
@@ -146,10 +149,20 @@ header p{
     width: 450px;
     background-color: #5A81FA;
     margin-bottom: 2rem;
+    color: #ffffff;
     margin-right: 5rem;
     align-items: center;
     border-radius: 16px;
-    margin-left: 6%;
+    margin-left: 5rem;
+
+}
+
+.ImagemIST{
+
+    background-color: white;
+    border-radius: 100%;
+    padding: 0.4rem;
+    margin-top: 7rem;
 
 }
 
@@ -168,6 +181,45 @@ header p{
     text-align: center;
     justify-content: center;
     margin-top: 2rem;
+
+}
+
+.textoIsts{
+
+    font-size: 22px;
+
+}
+
+.dix-aux{
+
+    padding-left: 6rem;
+    padding-right: 6rem;
+
+}
+
+.sectiontexto{
+
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+
+}
+
+.tituloS{
+
+    text-align: center;
+    margin-bottom: 2rem;
+
+}
+
+.listasobre{
+
+    list-style: decimal;
+
+}
+
+.subtitulo{
+
+    padding: 2rem;
 
 }
 
@@ -203,7 +255,4 @@ footer h2{
 
 #p2-rodape{
     padding-bottom: 3rem;
-}
-.texto-rodape{
-font-family: 'font-montserrat';
 }
