@@ -21,6 +21,9 @@ export default {
   
         'sm': {'max': '639px'},
         // => @media (max-width: 639px) { ... }
+
+        'mm': {'max' : '350px'},
+        // => @media (max-width: 350) { ... }
       },
       colors : {
 
