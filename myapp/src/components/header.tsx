@@ -17,9 +17,9 @@ export default function Header(){
         <div className="w-full bg-cinzaClaro h-16 flex items-center">
             <div className="w-full flex justify-between mx-auto max-w-[1700px]">
                 <div className="flex">
-                        <div className={`text-2xl font-semibold md:h-72 md:w-48 ${menuAtivado? 'animate-showsidebar md:absolute md:top-0 md:left-0 bg-cinzaClaro md:justify-center ' : 'animate-removesidebar md:hidden md:mt-[-400px]'}`}>
+                        <div className={`text-2xl font-semibold md:h-72 md:w-full ${menuAtivado? 'animate-showsidebar md:absolute md:top-0 md:left-0 bg-cinzaClaro md:justify-center ' : 'animate-removesidebar md:hidden md:mt-[-400px]'}`}>
                             <div className="hidden md:flex md:m-4 md:justify-center">
-                                <button onClick={abrirMenu}>
+                                <button onClick={abrirMenu} className={`${menuAtivado? 'visible':'animate-removesidebar'}`}>
                                     <img src={X} alt="Ícone para fechar menu" className="h-7 w-7" />
                                 </button>
                             </div>
@@ -36,8 +36,8 @@ export default function Header(){
                     </div>
                 </div>
                 <div className="items-center flex">
-                    <input type="text" placeholder="Pesquisar..." className="w-52 rounded-md p-1 mm:w-28 mm:bg-cinzaClaro mm:active:border-none" />
-                    <img src={Lupa} alt="Ícone de lupa" className="absolute ml-44 mm:ml-20 mm:hidden" />
+                    <input type="text" placeholder="Pesquisar..." className="w-52 rounded-md p-1 mm:w-28 md:bg-cinzaClaro mm:active:border-none" />
+                    <img src={Lupa} alt="Ícone de lupa" className={`absolute ml-44 mm:ml-20 mm:hidden ${menuAtivado? 'hidden' : 'visible'}`} />
                 </div>
             </div>
         </div>
