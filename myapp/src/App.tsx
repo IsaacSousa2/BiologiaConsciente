@@ -1,9 +1,9 @@
-import Header from "./components/header"/*Importando componente deo cabeçalho do site*/
+import Footer from "./components/footer"
 
 export default function App() {
   return(
     <div>
-      <Header />
+      <Footer />
     </div>
   )
 }
