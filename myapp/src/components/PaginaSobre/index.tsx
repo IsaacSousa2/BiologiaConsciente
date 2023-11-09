@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 type PagMetodoProps = {
 
     url: string,
@@ -9,7 +11,7 @@ export default function PagMetodo( {url, name, page}: PagMetodoProps) {
 
     return(
 
-        <a href={page}>
+        <Link to={page}>
 
             <div className="relative flex items-center flex-col w-[300px] cursor-pointer duration-[0.2s] hover:scale-105 mm:w-[250px]">
             
@@ -20,6 +22,6 @@ export default function PagMetodo( {url, name, page}: PagMetodoProps) {
             
             </div>
 
-        </a>
+        </Link>
     );
 };

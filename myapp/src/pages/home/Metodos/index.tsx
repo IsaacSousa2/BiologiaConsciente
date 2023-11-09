@@ -13,7 +13,7 @@ export default function Metodos() {
 
                 <div className="flex flex-wrap items-center justify-center gap-5 px-5">
 
-                    <PaginaSobre url="/src/assets/images/Metodos/Camisinha feminina 1.png" page="/" name="Preservativo feminino"/>
+                    <PaginaSobre url="/src/assets/images/Metodos/Camisinha feminina 1.png" page="/metodos/camisinhaFeminina" name="Preservativo feminino"/>
                     <PaginaSobre url="/src/assets/images/Metodos/camisinha masculina 1.png" page="/" name="Preservativo marculino"/>
                     <PaginaSobre url="/src/assets/images/Metodos/pilulas do dia seguinte 1.png" page="/" name="Pílula anticoncepcional"/>
                     <PaginaSobre url="/src/assets/images/Metodos/diu 1.png" page="/" name="DIU"/>

@@ -15,7 +15,6 @@ export default function App() {
       <Metodos/>
       <Ists/>
       <Sobre/>
-
       <Footer/>
 
     </>

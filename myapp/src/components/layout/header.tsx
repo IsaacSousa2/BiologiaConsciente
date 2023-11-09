@@ -1,3 +1,4 @@
+import { Outlet, Link } from "react-router-dom";
 import iconMenu from "../../assets/images/menuHamburguer.png"
 import Lupa from "../../assets/images/lupa.png"
 import X from "../../assets/images/xIcon.png"
@@ -34,7 +35,7 @@ export default function Header(){
                             </div> {/*Botao para fechar menu*/}
 
                             <div className="gap-5 flex md:flex-col md:gap-9 md:items-center md:flex ">
-                                    <a href="#" className="hover:text-cinza duration-[0.5s]">Métodos</a>
+                                    <Link to="/metodos" className="hover:text-cinza duration-[0.5s]">Métodos</Link>
                                     <a href="#" className="hover:text-cinza duration-[0.5s]">IST’S</a>
                                     <a href="#" className="hover:text-cinza duration-[0.5s]">Sobre</a>
                             </div> {/*Atalhos*/}
