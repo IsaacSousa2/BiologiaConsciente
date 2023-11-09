@@ -8,22 +8,11 @@ export default {
     extend: {
       screens: {
         '2xl': {'max': '1535px'},
-        // => @media (max-width: 1535px) { ... }
-  
         'xl': {'max': '1279px'},
-        // => @media (max-width: 1279px) { ... }
-  
-        'lg': {'max': '1023px'},
-        // => @media (max-width: 1023px) { ... }
-  
+        'lg': {'max': '920px'},
         'md': {'max': '767px'},
-        // => @media (max-width: 767px) { ... }
-  
         'sm': {'max': '639px'},
-        // => @media (max-width: 639px) { ... }
-
-        'mm': {'max' : '350px'},
-        // => @media (max-width: 350) { ... }
+        'mm': {'max' : '380px'},
       },
       colors : {
 
