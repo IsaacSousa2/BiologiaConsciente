@@ -53,7 +53,7 @@ export default function Header(){
 
                 </div>
 
-                <div className="absolute top-[-165px] right-[-130px]">
+                <div className={`absolute top-[-165px] right-[-130px] ${menuAtivado? 'hidden':'visible'}`}>
                     <img src={Logo} alt="Logo" className="object-scale-down h-[400px] w-[400px]"/>
                 </div>
 
