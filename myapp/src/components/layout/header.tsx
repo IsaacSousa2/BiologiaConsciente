@@ -53,13 +53,6 @@ export default function Header(){
 
                 </div>
 
-                <div className="items-center flex">
-
-                    <input type="text" placeholder="Pesquisar..." className="w-52 rounded-md p-1 mm:w-28 md:bg-cinzaClaro mm:active:border-none" />
-                    <img src={Lupa} alt="Ícone de lupa" className={`absolute ml-44 mm:ml-20 mm:hidden ${menuAtivado? 'hidden' : 'visible'}`} />
-
-                </div> {/*Input*/}
-
             </div>
 
         </div>

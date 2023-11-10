@@ -8,11 +8,13 @@ type InformativoProps = {
     titleMetodo: string,
     textMetodo: string,
     textHistoria: string,
-    eficaz: boolean,
-    textEficaz: string
+    tratamento?: boolean,
+    textTratamento?: string,
+    eficaz?: boolean,
+    textEficaz?: string,
 };
 
-export default function Informativo( { url, urlWiki, titleMetodo, textMetodo, textHistoria, eficaz, textEficaz }: InformativoProps ) {
+export default function Informativo( { url, urlWiki, titleMetodo, textMetodo, textHistoria, tratamento, textTratamento, eficaz, textEficaz }: InformativoProps ) {
 
     return(
         
@@ -44,6 +46,20 @@ export default function Informativo( { url, urlWiki, titleMetodo, textMetodo, te
 
             </div> {/*Secao historia*/}
 
+            {tratamento ? 
+            
+                /*Secao tratamentos*/
+                <div>
+
+                    <Titulo title="Tratamentos"/>
+                    <p className="indent-20 text-justify align-center px-5 w-[1300px] max-w-full ml-auto mr-auto mb-0">{textTratamento}</p>
+    
+
+                </div> 
+                :
+                <></>
+}
+            
             {/*Eficacia do metodo*/}
             {eficaz ? 
 
@@ -79,6 +95,18 @@ export default function Informativo( { url, urlWiki, titleMetodo, textMetodo, te
                     </div>
 
                 </div>
+
+                ||
+
+                eficaz == null
+
+                ?
+
+                <></>
+
+                :
+
+                <></>
             }
             
 

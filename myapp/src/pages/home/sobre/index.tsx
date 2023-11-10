@@ -11,7 +11,7 @@ export default function Sobre() {
 
             <div className="flex-colpx-5" id="sobre">
 
-                <p className="indent-20 text-justify align-center w-[1300px] max-w-full ml-auto mr-auto mt-0 mb-0">É crucial compreender tanto a importância do uso de métodos contraceptivos quanto o conhecimento sobre as ISTs (Infecções Sexualmente Transmissíveis) para garantir uma vida sexual saudável e segura. Aqui estão as razões pelas quais esses dois aspectos são tão importantes:</p> {/*Explicando a importância*/}
+                <p className="indent-20 text-justify align-center w-[1300px] px-5 max-w-full ml-auto mr-auto mt-0 mb-0">É crucial compreender tanto a importância do uso de métodos contraceptivos quanto o conhecimento sobre as ISTs (Infecções Sexualmente Transmissíveis) para garantir uma vida sexual saudável e segura. Aqui estão as razões pelas quais esses dois aspectos são tão importantes:</p> {/*Explicando a importância*/}
 
                 <div className="flex flex-wrap justify-center gap-5 px-5 mt-5">
 
@@ -23,7 +23,7 @@ export default function Sobre() {
 
                 </div> {/*Importancia dos métodos contraceptivos*/}
 
-                <p className="indent-20 text-justify align-center w-[1300px] max-w-full ml-auto mr-auto mt-5 mb-0">Importância de Conhecer as ISTs:</p> {/*Explicando a importância*/}
+                <p className="indent-20 text-justify align-center w-[1300px] px-5 max-w-full ml-auto mr-auto mt-5 mb-0">Importância de Conhecer as ISTs:</p> {/*Explicando a importância*/}
 
                 <div className="flex flex-wrap justify-center gap-5 px-5 mt-5">
 

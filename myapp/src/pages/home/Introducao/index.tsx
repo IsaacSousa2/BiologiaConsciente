@@ -6,7 +6,7 @@ export default function Introducao() {
 
         <>
 
-            <div className="flex items-center justify-evenly pt-5 bg-azul lg:flex-col lg:justify-normal">
+            <div className="flex items-center justify-evenly pt-20 bg-azul lg:flex-col lg:justify-normal">
                 
                 <div className="flex flex-col max-w-full px-5 lg:items-center">
 
