@@ -10,8 +10,8 @@ type PagMetodoProps = {
 export default function PagMetodo( {url, name, page}: PagMetodoProps) {
 
     return(
-
-        <Link to={page}>
+        
+        <Link to={page} >
 
             <div className="relative flex flex-col w-[300px] cursor-pointer duration-[0.2s] hover:scale-105 mm:w-[250px]">
             
