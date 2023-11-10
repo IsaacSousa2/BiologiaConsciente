@@ -9,7 +9,7 @@ export default function Ists() {
 
             <Titulo title="IST'S"/>
 
-            <div className="flex flex-col items-center gap-5">
+            <div className="flex flex-col items-center gap-5" id="ists">
 
                 <div className="flex flex-wrap items-center justify-center gap-5 px-5">
 

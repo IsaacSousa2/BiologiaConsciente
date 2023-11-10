@@ -18,7 +18,7 @@ export default function Header(){
 
     return(
 
-        <div className="w-full bg-cinzaClaro h-16 p-5 flex items-center">
+        <div className="fixed z-10 w-full bg-cinzaClaro h-16 p-5 flex items-center">
 
             <div className="w-full flex justify-between mx-auto max-w-[1700px]">
 
@@ -35,9 +35,10 @@ export default function Header(){
                             </div> {/*Botao para fechar menu*/}
 
                             <div className="gap-5 flex md:flex-col md:gap-9 md:items-center md:flex ">
-                                    <Link to="/metodos" className="hover:text-cinza duration-[0.5s]">Métodos</Link>
-                                    <a href="#" className="hover:text-cinza duration-[0.5s]">IST’S</a>
-                                    <a href="#" className="hover:text-cinza duration-[0.5s]">Sobre</a>
+                                    <Link to="/" className="hover:text-cinza duration-[0.2s] text-xl uppercase">Home</Link>
+                                    <a href="#metodos" className="hover:text-cinza duration-[0.2s] text-xl uppercase">Metodos</a>
+                                    <a href="#ists" className="hover:text-cinza duration-[0.2s]  text-xl uppercase">IST’S</a>
+                                    <a href="#sobre" className="hover:text-cinza duration-[0.2s]  text-xl uppercase">Sobre</a>
                             </div> {/*Atalhos*/}
 
                         </div>

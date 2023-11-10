@@ -32,3 +32,9 @@ body {
     font-family: "MontMedium";
     text-align: justify;
 }
+
+/*Animacao de scroll*/
+html {
+
+    scroll-behavior: smooth;
+}
