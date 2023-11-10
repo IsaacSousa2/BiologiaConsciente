@@ -3,7 +3,7 @@ import { AiOutlineSmile, AiOutlineFrown } from "react-icons/ai"
 
 type InformativoProps = {
 
-    url: string,
+    url: any,
     urlWiki: string,
     titleMetodo: string,
     textMetodo: string,
