@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 type PagMetodoProps = {
 
-    url: any,
+    url: string,
     page: string,
     name: string,
 };

@@ -1,6 +1,6 @@
 import Titulo from "../../../components/Titulo";
 import PaginaSobre from "../../../components/PaginaSobre";
-import Img from "../../../assets/images/Metodos/Camisinha feminina 1.png"
+import Img from "../../../assets/images/Metodos/camisinha feminina 1.png"
 
 export default function Metodos() {
 
