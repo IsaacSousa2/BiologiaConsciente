@@ -53,11 +53,8 @@ export default function Header(){
 
                 </div>
 
-                <div className="right-0 top-[-40px] flex absolute">
-                    <img src={Logo} alt="Logo" className="object-scale-down w-[300px]"/>
-
-                        <img src={Logo} alt="Logo" className="object-scale-down h-36 w-36"/>
-
+                <div className="absolute top-[-165px] right-[-130px]">
+                    <img src={Logo} alt="Logo" className="object-scale-down h-[400px] w-[400px]"/>
                 </div>
 
             </div>
