@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
+import Logo from "../../assets/images/Logo.png"
 import iconMenu from "../../assets/images/menuHamburguer.png"
-import Lupa from "../../assets/images/lupa.png"
 import X from "../../assets/images/xIcon.png"
 import { useState } from "react"
 export default function Header(){
@@ -51,6 +51,10 @@ export default function Header(){
 
                     </div> {/*Botao menu hamburguer*/}
 
+                </div>
+
+                <div className="right-0 top-[-40px] flex absolute">
+                        <img src={Logo} alt="Logo" className="object-scale-down h-36 w-36"/>
                 </div>
 
             </div>
